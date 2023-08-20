@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Easy Routes",
+    "slug": "taxi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./images/logo1.png",
+    "userInterfaceStyle": "light",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.spurex.taxi",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDWdgMXfzkGFWoRQHgJh8iOJ_K2ke3sQuI"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./images/logo1.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.spurex.taxi",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDWdgMXfzkGFWoRQHgJh8iOJ_K2ke3sQuI"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
